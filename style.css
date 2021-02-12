@@ -1,0 +1,30 @@
+#game {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #000;
+  background: url(imgs/pipe_yes.png) top center;
+  overflow: hidden;
+  position: relative;
+}
+
+#game .pipeD {
+   background: url(imgs/pipe_reverse.png) top center;
+   position: absolute;
+}
+
+#game .pipeU {
+   background: url(imgs/pipe.png) bottom center;
+   position: absolute;
+}
+
+#bird {
+   width: 34px;
+   height: 25px;
+   /*border-radius: 10px;*/
+   /*background-color: red;*/
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   background: url(imgs/bird1.png) -8px -10px no-repeat;
+}
+
